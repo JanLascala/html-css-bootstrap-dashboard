@@ -50,7 +50,7 @@
     </Header>
     <main class="d-lg-flex">
         <!--container title and table-->
-        <div class="container p-3">
+        <div class="container p-3 col-lg-8">
             <!--title of table-->
             <div class="container d-flex justify-content-between p-3 ">
                 <h1>Catalogo Libri</h1>
@@ -194,46 +194,51 @@
             </table>
         </div>
         <!--to do and faq container-->
-        <div class="container">
+        <div class="container col-lg-4">
             <!--to do-->
-            <div class="container ">
-                <div class="border border-secondary-subtle p-3 rounded-1">
-                    <div class=>
-                        <h5 class="card-title border-bottom">Todo</h5>
+            <div class="card">
+                <div class="card-header">
+                    <h5>Todo</h5>
+                </div>
+                <div class="card-body">
 
+                    <div class="card p-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="form-check ">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Chiamare segreteria
+                                    </label>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="form-check ">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Mandare avvisi prestiti scaduti
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Ordinare nuovi libri
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="card m-3">
-                        <div class="card-body ">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    Chiamare segreteria
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                <label class="form-check-label" for="flexCheckChecked">
-                                    Mandare avvisi prestiti scaduti
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                <label class="form-check-label" for="flexCheckChecked">
-                                    Ordinare nuovi libri
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-
             <!--faq-->
             <div class="container p-3">
                 <div class="card ">
-                    <div class="card-body">
+                    <div class="card-header">
                         <h5 class="card-title ">F.A.Q</h5>
-                        <hr>
+
                     </div>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
@@ -287,13 +292,7 @@
 
                 </div>
             </div>
-
-
-
-
         </div>
-
-
 
     </main>
 
