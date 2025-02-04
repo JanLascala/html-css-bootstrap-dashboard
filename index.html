@@ -15,36 +15,36 @@
 <body>
 
     <Header class="bg-dark ">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a href="#"><img width="50" src="./img/duck.png"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Catalogo Libri</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link text-secondary" href="#">Anagrafica Utenti</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary" href="#">Storico Prestiti</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary" href="#">Help</a>
-                        </li>
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark"">
+            <div class=" container-fluid">
+            <a href="#"><img width="50" src="./img/duck.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Catalogo Libri</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-secondary" href="#">Anagrafica Utenti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Storico Prestiti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Help</a>
+                    </li>
 
 
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="cerca..." aria-label="Search">
-                        <button class="btn btn-outline-light" type="submit">cerca</button>
-                    </form>
-                </div>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="cerca..." aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">cerca</button>
+                </form>
+            </div>
             </div>
         </nav>
     </Header>
@@ -58,7 +58,7 @@
 
             </div>
             <!--table start-->
-            <table class="table p-3">
+            <table class="table p-3  ">
                 <thead>
                     <tr>
                         <th scope="col">Titolo</th>
@@ -73,7 +73,8 @@
                         <td class="d-none d-md-table-cell" scope="col ">-</td>
                         <td scope="col"><span class="badge text-bg-success">Disponibile</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <div></div>
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -83,7 +84,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">-</td>
                         <td scope="col"><span class="badge text-bg-success">Disponibile</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -93,7 +94,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">18/10/2023</td>
                         <td scope="col"><span class="badge text-bg-warning text-white">In prestito</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -103,7 +104,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">-</td>
                         <td scope="col"><span class="badge text-bg-success">Disponibile</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -113,7 +114,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">-</td>
                         <td scope="col"><span class="badge text-bg-danger">Non Disponibile</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -123,7 +124,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">-</td>
                         <td scope="col"><span class="badge text-bg-success">Disponibile</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -133,7 +134,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">21/09/2023</td>
                         <td scope="col"><span class="badge text-bg-warning text-white">In prestito</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -143,7 +144,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">-</td>
                         <td scope="col"><span class="badge text-bg-success">Disponibile</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -153,7 +154,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">-</td>
                         <td scope="col"><span class="badge text-bg-danger">Non disponibile</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -163,7 +164,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">25/07/2023</td>
                         <td scope="col"><span class="badge text-bg-warning text-white">In prestito</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -173,7 +174,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">-</td>
                         <td scope="col"><span class="badge text-bg-success">Disponibile</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
@@ -183,7 +184,7 @@
                         <td class="d-none d-md-table-cell" scope="col ">-</td>
                         <td scope="col"><span class="badge text-bg-success">Disponibile</span>
                         </td>
-                        <td scope="col"><button type="button" class="btn btn-outline-secondary "><i
+                        <td class="d-flex" scope="col"><button type="button" class="btn btn-outline-secondary "><i
                                     class="fa-solid fa-pen text-secondary"></i></button> <button type="button"
                                 class="btn btn-outline-secondary"><i
                                     class="fa-solid fa-trash text-secondary"></i></button></td>
