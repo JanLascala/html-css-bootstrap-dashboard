@@ -49,6 +49,56 @@
         </nav>
     </Header>
     <main>
+        <div class="container mt-3">
+            <form class="row g-3">
+                <div class="col">
+                    <label for="name-autor" class="form-label">Nome Autore</label>
+                    <input type="text" class="form-control" id="name-autor" placeholder="Inserisci il nome dell'autore">
+                </div>
+                <div class="col">
+                    <label for="lastname-autor" class="form-label">Cognome Autore</label>
+                    <input type="text" class="form-control" id="lastname-autor"
+                        placeholder="Inserisci il Cognome dell'autore">
+                </div>
+                <div class="col-12">
+                    <label for="bool-title" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="bool-title" placeholder="Inserisci il titolo del libro">
+                </div>
+                <div class="col-md-4">
+                    <label for="genere" class="form-label">Genere</label>
+                    <select id="genere" class="form-select">
+                        <option selected>Scegli il genere</option>
+                        <option>horror</option>
+                        <option>dramma</option>
+                        <option>storico</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="year-publication" class="form-label">Anno di publicazione</label>
+                    <input type="number" class="form-control" id="year-publication"
+                        placeholder="Inserisci l'anno di pubblicazione">
+                </div>
+
+                <div class="col-md-4">
+                    <label for="ISBN#" class="form-label">ISBN#</label>
+                    <input type="number" class="form-control" id="ISBN#" placeholder="inserisci codice ISBN#">
+                </div>
+                <hr>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+
+            </form>
+        </div>
+
 
 
     </main>
